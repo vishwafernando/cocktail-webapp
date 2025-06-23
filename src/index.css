@@ -1029,8 +1029,6 @@ body {
 
             p {
                 @apply lg:text-2xl 2xl:text-3xl text-sm;
-                transition: all 0.3s ease;
-
                 &:hover {
                     @apply text-glow;
                     transform: translateY(-2px);
@@ -1038,8 +1036,6 @@ body {
             }
 
             a {
-                transition: all 0.3s ease;
-
                 &:hover {
                     transform: scale(1.1);
                     filter: brightness(1.2);
