@@ -92,7 +92,7 @@ body {
 
     nav {
         @apply fixed z-50 w-full;
-        position: relative;
+        position: fixed;
 
         &::before {
             content: '';
