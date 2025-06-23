@@ -100,15 +100,6 @@ const goodLists = [
     "Freshly muddled flavors",
 ];
 
-const storeInfo = {
-    heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
-    contact: {
-        phone: "(555) 987-6543",
-        email: "hello@jsmcocktail.com",
-    },
-};
-
 const openingHours = [
     { day: "Mon–Thu", time: "11:00am – 12am" },
     { day: "Fri", time: "11:00am – 2am" },
@@ -177,7 +168,6 @@ export {
     featureLists,
     goodLists,
     openingHours,
-    storeInfo,
     socials,
     allCocktails,
 };
