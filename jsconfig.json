@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@constants/*": ["constants/*"],
+      "@assets/*": ["public/*"]
+    },
+    "jsx": "react",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
